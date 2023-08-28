@@ -20,6 +20,7 @@ function Search() {
             })
             .catch(err => alert("please enter correct city name"))
     }
+
     let today = new Date()
     const date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
 
